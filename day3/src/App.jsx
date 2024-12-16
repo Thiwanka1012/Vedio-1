@@ -1,13 +1,27 @@
 
 import './App.css'
+import BodyContent from './Components/BodyContent/BodyContent'
+import FooterContent from './Components/FooterContent/FooterContent'
+import HeaderContent from './Components/HeaderContent/HeaderContent'
 
 function App() {
 
 
   return (
     <>
-<h1>Hello React App</h1>
-    </>
+<div id="wrapper">
+
+<HeaderContent/>
+<BodyContent/>
+<FooterContent/>
+ 
+
+
+
+ </div>
+ </>
+
+
   )
 }
 
