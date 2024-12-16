@@ -28,21 +28,7 @@ const pobj = {
 
   return (
     <>
-<h1 className="const">Eployee Details</h1>
-<p>Full name :{getFullName("NIck","Jhon","Steve")} </p>
-<p>fristname:{fristname}</p>
-<p>middlename:{middlename}</p>
-<p>surname:{surname}</p>
-<p>age:{age}</p>
-<p>country:{country}</p>
-<p>{fristname} likes to eat {arr[0]}</p>
 
-<p>Frontend Languages</p>
-<p>{lang}</p>
-
-{pobj.age}
-
-<p>{pobj.fname} is {pobj.age} years old</p>
 
 </>
   )
