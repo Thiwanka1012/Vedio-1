@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+.one{
+  // <uniquifier>: Use a unique and descriptive class name
+// <bleed>: Use a value from 0 to 100
+// <scanlines>: Use a value from -53 to 100
+
+.sixtyfour-<uniquifier> {
+  font-family: "Sixtyfour", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" <bleed>,
+    "SCAN" <scanlines>;
+}
+}
