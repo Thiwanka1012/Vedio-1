@@ -11,9 +11,12 @@ function App() {
     <>
 <div id="wrapper">
 
-<HeaderContent/>
-<BodyContent/>
-<FooterContent/>
+    <HeaderContent/>
+    <BodyContent>
+      <p>Main side Content</p>
+
+    </BodyContent>
+    <button>Click Me</button>
  
 
 
